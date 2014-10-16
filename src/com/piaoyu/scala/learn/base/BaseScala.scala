@@ -4,7 +4,7 @@ import java.io.File
 import java.util.Scanner
 
 /**
- * 对应http://zh.scala-tour.com/#/basics-contents
+ * http://zh.scala-tour.com/#/basics-contents
  * Created by piaoyu on 14-10-13.
  */
 object BaseScala {
