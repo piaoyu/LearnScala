@@ -17,21 +17,15 @@ object BaseScala {
     a*a
   }
 
-  /**
-   * 借贷模式
-   * loan-pattern
-   * @param f
-   * @param op
-   */
-  def withScanner(f:File,op:Scanner=>Unit) = {
+  val squareValue = (a:Int)=> a*a;
+  def addOne(f:Int=> Int,arg:Int) = f(arg) + 1
 
-  }
 
   def main(args: Array[String]) {
     println(helloworld)
     println(square(2))
     println(squareWithBlock(2))
+    println(addOne(squareValue,2))
   }
-
 
 }
