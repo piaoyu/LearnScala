@@ -6,17 +6,17 @@ import akka.actor.{Actor,ActorSystem,Props}
  */
 object LearnActor {
 
-//  class EchoServer extends Actor {
-//    def receive = {
-//      case msg: String => println("Hello " + msg)
-//    }
-//  }
-//
-//  def main(args: Array[String]) {
-//    val actorSystem = ActorSystem()
-//    val echoServer = actorSystem.actorOf(Props[EchoServer])
-//    echoServer ! "Scala"
-//    actorSystem.shutdown
-//  }
+  class EchoServer extends Actor {
+    def receive = {
+      case msg: String => println("Hello " + msg)
+    }
+  }
+
+  def main(args: Array[String]) {
+    val actorSystem = ActorSystem()
+    val echoServer = actorSystem.actorOf(Props[EchoServer])
+    echoServer ! "Scala"
+    actorSystem.shutdown
+  }
 
 }
