@@ -4,7 +4,7 @@ import akka.actor.ActorDSL._
 import akka.pattern.ask
 
 /**
- * Return Sync Learn Just Like IO
+ * Return Sync Learn
  * Created by piaoyu on 14-10-21.
  */
 object ReturnSync {

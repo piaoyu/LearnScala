@@ -7,7 +7,7 @@ import scala.concurrent.Future
 
 
 /**
- * Return Async Learn Just Like NIO
+ * Return Async Learn
  * Created by piaoyu on 14-10-23.
  */
 object ReturnAsync {
